@@ -10,7 +10,6 @@ Y = [np.random.rand() for i in range(100)]
 
 
 
-# dist = sqrt( (x2 - x1)**2 + (y2 - y1)**2 )
 dist = (((x - 0)**2 + (y - 0)**2)**0.5 for x, y in zip(X,Y))
 colors = ['green' if i < 1 else 'red' for i in dist]
 area = [x+y for x, y in zip(X,Y)]
