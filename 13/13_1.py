@@ -1,6 +1,6 @@
 from PIL import Image
 
-image1 = Image.open('cats.JPG')
+image1 = Image.open('cats.jpg')
 print(f'Image mode: {image1.mode}')
 print(f'Image size: {image1.size}')
 print(f'Image width: {image1.width} pixels')
